@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Elliana Pastrano
+email: ellianapastrano@gmail.com
+url: https://epastrano.github.io/ellianapastrano.github.io/
+description: "Data Science Projects"
+keywords: " data science, data analytics"
+skills: "Analyst - SQL - R"
+meta_author: Pastrano Elliana
 
 # Google webmaster tools
 google_verify:
@@ -39,16 +39,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: epastrano
 
 # Postal address (add as many lines as necessary)
 address:
@@ -56,7 +48,7 @@ address:
   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'I am a current data science student who is drawn to work that bridges people, data, and systems to create real-world change. I am particularly interested in leveraging data analysis and machine learning to uncover meaningful patterns, translate complex findings into compelling narratives, and support informed, actionable decision-making. My goal is to use data-driven insights to highlight needs, evaluate impact, and guide strategies that create measurable improvements for organizations and communities.'
 
 # Build settings
 markdown: kramdown
