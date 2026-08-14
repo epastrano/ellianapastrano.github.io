@@ -19,6 +19,10 @@
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+
+            {{ post.content }}
+
+            <ul class="list-inline item-details">
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
