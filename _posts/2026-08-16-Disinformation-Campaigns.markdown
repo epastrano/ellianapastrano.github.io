@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2026-08-16
-img: disinformation_scores.png
+img: disinformation_score.png
 alt: Disinformation-Project
 project-date: August 2026
 client: Willamette University (MSDS Capstone)
