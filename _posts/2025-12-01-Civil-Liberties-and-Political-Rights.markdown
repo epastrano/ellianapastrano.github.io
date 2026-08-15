@@ -1,4 +1,5 @@
 ---
+title: Civil Liberties, Political Rights, and Democracy Score Analysis
 layout: default
 modal-id: 1
 date: 2025-12-01

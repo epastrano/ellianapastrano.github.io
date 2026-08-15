@@ -1,4 +1,5 @@
 ---
+title: Media Indicators of Misinformation
 layout: default
 modal-id: 3
 date: 2026-08-14
