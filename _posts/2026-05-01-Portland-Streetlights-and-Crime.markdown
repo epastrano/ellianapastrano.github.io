@@ -7,8 +7,8 @@ alt: Portland-Street-Light-Project
 project-date: May 2026
 client: Willamette University (MSDS)
 category: Geospatial Analysis & Interactive Data Visualization
-description: Spatial analysis of 2025 crime data in Porland, Oregon testing whether  streetlights deter crime. This includes an interactive Shiny dashboard for neighborhood-level exploration.
-project-link: https://maggie-g-willamette.shinyapps.io/502Final/
+description: Spatial analysis of 2025 crime data in Portland, Oregon testing whether  streetlights deter crime. This includes an interactive Shiny dashboard for neighborhood-level exploration.
+project-link: "https://maggie-g-willamette.shinyapps.io/502Final/"
 ---
 
 ## Project Overview
