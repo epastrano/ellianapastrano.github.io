@@ -14,7 +14,7 @@ description: Logistic regression analysis examining the relationship between pol
 
 This project investigates a critical question in democratic theory: **How strongly are Political Rights and Civil Liberties associated globally, and do socioeconomic factors influence this relationship?**
 
-## Research Questions & Methodology
+#### Research Questions & Methodology
 
 Using data from 2013-2024, I analyzed 195+ countries across Freedom House Index categories alongside World Bank economic indicators:
 - **Primary predictor**: Political Rights rating (1-7 scale)
@@ -22,7 +22,7 @@ Using data from 2013-2024, I analyzed 195+ countries across Freedom House Index 
 - **Geographic factors**: Regional classification and temporal trends
 - **Response variable**: Civil Liberties status (binary: Free vs. Not Free)
 
-## Key Findings
+#### Key Findings
 
 **Political Rights is the dominant predictor** of Civil Liberties:
 - **McFadden R² = 0.7244** — the model explains 72.4% of variance
@@ -33,13 +33,13 @@ Using data from 2013-2024, I analyzed 195+ countries across Freedom House Index 
 
 **Regional patterns emerge**: Europe is significantly more likely to be Free, while Asia shows higher rates of restricted Civil Liberties, regardless of economic development.
 
-## Technical Approach
+#### Technical Approach
 
 - **Method**: Binary Logistic Regression
 - **Model**: `logit(P(Not Free)) = β₀ + β₁(PR) + β₂(GDP) + β₃(Internet) + β₄(Education) + β₅(Region) + β₆(Year)`
 - **Data handling**: List deletion for missing values; Variance Inflation Factor (VIF) for multicollinearity assessment
 - **Tools**: R (tidyverse, dplyr, caret, pROC, car)
 
-## Implications
+#### Implications
 
 The tight coupling between Political Rights and Civil Liberties suggests that **political reforms should take priority over economic development policies** for countries seeking to improve freedom. The analysis points to the need for qualitative, institution-focused approaches to democratic reform rather than relying on economic growth alone.

@@ -16,10 +16,10 @@ description: Spatial analysis of 2025 crime data in Porland, Oregon testing whet
 
 ## Research Questions & Methodology
 
-### Key Question
+#### Key Question
 Do streetlights deter targeted crime categories affecting pedestrians traveling at night, or is lighting a proxy for other urban factors?
 
-### Data & Approach
+#### Data & Approach
 - **Data sources**: 2025 Portland crime reports (15,331 total; 6,242 night crimes) + open streetlight inventory
 - **Spatial transformation**: Converted to meter distance; imported street network from Portland Open Data to ensure accurate crime/light location analysis
 - **Dynamic lighting threshold**: Each streetlight's effective range calculated based on lumens: `(20 × √(Lumen / 4000)) + 20` meters
@@ -27,9 +27,9 @@ Do streetlights deter targeted crime categories affecting pedestrians traveling 
 - **Density analysis**: Crime per km² in lit vs. unlit zones
 - **Control testing**: Reanalyzed in urban-only districts (Pearl District, Old Town, Downtown) to control for urban density variation
 
-## Key Findings
+### Key Findings
 
-### Surprising Result: Crimes ARE Near Lights (But Not Why You'd Think)
+#### Surprising Result: Crimes ARE Near Lights (But Not Why You'd Think)
 
 **Total Portland Area (31.17 km² of streets):**
 - 74.4% of street area was lit
@@ -43,20 +43,20 @@ Do streetlights deter targeted crime categories affecting pedestrians traveling 
 - Chi-square test: **χ² = 226.63, p < 0.0001** (highly significant)
 - Crime density: **459.8 crimes/km² in lit areas** vs. 55.38 in unlit areas
 
-### Theories
+#### Theories
 
 1. **Streetlights deter crime** — *Cannot be ruled out*, but would require before/after streetlight placement data
 2. **Streetlights are a proxy for urban density** — **STRONGLY SUPPORTED.** Even when controlling for highly urban districts, the pattern held
 3. **Urban density is the lurking variable** — **MOST LIKELY.** Lights mark high-activity zones, not safer zones
 
-## Technical Implementation
+### Technical Implementation
 
 - **Data cleaning & spatial joining**: R (sf, sp packages)
 - **Spatial analysis**: Dynamic buffer calculations, density mapping, chi-square testing
 - **Interactive dashboard**: Shiny app allowing users to explore results by Portland neighborhood and crime type
 - **Visualization**: Interactive maps, crime density comparisons, neighborhood-level breakdowns
 
-## Conclusions
+#### Conclusions
 
 **Bottom line:** Statistically, you're not safer walking where there are more streetlights. Crimes cluster near lights because lights mark busy urban centers, not because lights cause or prevent crime.
 
