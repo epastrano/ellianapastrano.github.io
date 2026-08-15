@@ -40,7 +40,8 @@ footer:
 social:
   - title: github
     url: https://github.com/epastrano
-
+  - title: linkedin
+    url: https://www.linkedin.com/in/elliana-pastrano
 # Postal address (add as many lines as necessary)
 address:
   - line: Portland

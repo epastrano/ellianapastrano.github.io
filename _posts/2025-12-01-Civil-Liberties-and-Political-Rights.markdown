@@ -11,15 +11,15 @@ description: Logistic regression analysis examining the relationship between pol
 project-link: "https://github.com/epastrano/civil_liberties_and_political_rights"
 ---
 
-## Research Question
+#### Research Question
 
 How strongly are Political Rights and Civil Liberties associated globally, and do socioeconomic factors influence this relationship?
 
-## Key Finding
+#### Key Finding
 
 Political Rights is the dominant predictor of Civil Liberties (R² = 0.7244, 91.9% accuracy). Socioeconomic factors do not significantly predict Civil Liberties after accounting for Political Rights, suggesting that economic growth alone cannot guarantee freedom.
 
-## Technical Implementation
+#### Technical Implementation
 
 **Methodology:**
 - Binary Logistic Regression modeling
