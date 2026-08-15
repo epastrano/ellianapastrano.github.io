@@ -8,6 +8,7 @@ project-date: Dec 2025
 client: Willamette University (MSDS)
 category: Statistical Analysis & Predictive Modeling
 description: Logistic regression analysis examining the relationship between political rights and civil liberties across 195+ countries, using Freedom House Index data combined with World Bank economic indicators.
+project-link: "https://github.com/epastrano/civil_liberties_and_political_rights"
 ---
 
 ## Project Overview

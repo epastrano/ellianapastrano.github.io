@@ -8,6 +8,7 @@ project-date: August 2026
 client: Willamette University (MSDS Capstone)
 category: Predictive Modeling & Cross-National Analysis
 description: Machine learning analysis predicting disinformation campaign intensity using global news media characteristics and expert-coded indicators across 179 countries, 2015-2025.
+project-link: "https://wu-msds-capstones.github.io/project-writeup-maggie-elliana/)"
 ---
 
 ## Project Overview
