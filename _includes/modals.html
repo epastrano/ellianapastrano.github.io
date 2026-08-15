@@ -19,6 +19,11 @@
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+
+            {% if post.project-link %}
+            <a href="{{ post.project-link }}" class="btn btn-default" target="_blank">View Project</a>
+            {% endif %}
+
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -35,6 +40,7 @@
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
+
             </ul>
             
             <div style="text-align: left;">
