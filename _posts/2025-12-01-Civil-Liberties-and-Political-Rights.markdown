@@ -5,7 +5,7 @@ modal-id: 1
 date: 2025-12-01
 img: R_project.png
 alt: image-alt
-project-date: Dec 2025
+project-date: December 2025
 client: Willamette University (MSDS)
 category: Statistical Analysis & Predictive Modeling
 description: Logistic regression analysis examining the relationship between political rights and civil liberties across 195+ countries, using Freedom House Index data combined with World Bank economic indicators.
@@ -18,7 +18,7 @@ How strongly are Political Rights and Civil Liberties associated globally, and d
 
 #### Key Finding
 
-Political Rights is the dominant predictor of Civil Liberties (R² = 0.7244, 91.9% accuracy). Socioeconomic factors do not significantly predict Civil Liberties after accounting for Political Rights, suggesting that economic growth alone cannot guarantee freedom.
+I found that Political Rights is largely influences Civil Liberties (R² = 0.7244, 91.9% accuracy). Socioeconomic factors do not significantly predict Civil Liberties after accounting for Political Rights, suggesting that economic growth alone cannot guarantee freedom.
 
 #### Technical Implementation
 
@@ -28,10 +28,10 @@ Political Rights is the dominant predictor of Civil Liberties (R² = 0.7244, 91.
 - Model specification: `logit(P(Not Free)) = β₀ + β₁(PR) + β₂(GDP) + β₃(Internet) + β₄(Education) + β₅(Region) + β₆(Year)`
 
 **Data Handling:**
-- List deletion for missing values
+- Cleaned data to account for missing values and mismatched country names
 - Variance Inflation Factor (VIF) assessment to evaluate multicollinearity
-- Predictor variables: Political Rights ratings (1-7), GDP per capita, internet access, education completion rates, regional classification, and temporal trends
-- Response variable: Civil Liberties status (binary: Free vs. Not Free)
+- Joined two datasets to create predictor variables: Political Rights ratings (1-7), GDP per capita, internet access, education completion rates, regional classification, and temporal trends
+- Recoded response variable to be binary: Civil Liberties status (Free vs. Not Free)
 
 **Tools & Technologies:**
 R (tidyverse, dplyr, caret, pROC, car), Binary Logistic Regression, Statistical Analysis

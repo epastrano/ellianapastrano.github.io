@@ -4,7 +4,7 @@ email: ellianapastrano@gmail.com
 url: https://epastrano.github.io/ellianapastrano.github.io/
 description: "Data Science Projects"
 keywords: " data science, data analytics"
-skills: "I am a current data science student who is drawn to work that bridges people, data, and systems to create real-world change. I am particularly interested in using data analysis and machine learning to uncover meaningful patterns and translate complex findings into compelling narratives to support informed decision-making. My goal is to use data-driven insights to highlight needs, evaluate impact, and guide strategies that create measurable improvements for organizations and communities."
+skills: "I am a current data science student who is drawn to work that bridges people, data, and systems to create real-world change. My goal is to use data-driven insights to highlight needs, evaluate impact, and guide strategies that create measurable improvements for organizations and communities."
 meta_author: Pastrano Elliana
 
 # Google webmaster tools
@@ -21,7 +21,7 @@ bing_verify:
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-#disqus_shortname: myshortname
+disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

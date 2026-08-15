@@ -14,7 +14,7 @@ project-link: "https://wu-msds-capstones.github.io/project-writeup-maggie-ellian
 
 ### Project Overview
 
-Built a capstone project pipeline that aggregates world news at the article-level and analyzes it to use as predictors of country-year misinformation campaigns.
+My partner and I built a capstone project pipeline that aggregates world news at the article-level and analyzes it to use as predictors of country-year misinformation campaigns.
 
 ### Technical Implementation
 

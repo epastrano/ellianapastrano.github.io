@@ -21,7 +21,7 @@ project-link: "https://maggie-g-willamette.shinyapps.io/502Final/"
 
 **Exploratory Analysis:**
 - Conducted basic EDA on crime patterns and lighting distribution
-- Performed statistical tests and created graphics to determine best visualization approaches
+- Performed statistical tests and created graphics to determine best visualization approaches for this topic
 - Analyzed correlation between nighttime crime and streetlight presence
 
 ### Technical Implementation
@@ -33,9 +33,9 @@ project-link: "https://maggie-g-willamette.shinyapps.io/502Final/"
 
 **Interactive Dashboard:**
 - Built a Shiny Application allowing users to select specific Portland districts
-- Displays crime amount and type by neighborhood
-- Shows temporal patterns (time of day crimes were committed)
-- Enables neighborhood-level exploration and comparison
+- Displayed crime amount and type by neighborhood
+- Tracked temporal patterns (time of day crimes were committed)
+- Enabled neighborhood-level exploration and comparison
 
 ### Tools & Technologies
 
