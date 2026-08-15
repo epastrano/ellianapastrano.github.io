@@ -12,7 +12,7 @@ description: Spatial analysis of 2025 crime data in Portland, Oregon testing whe
 project-link: "https://maggie-g-willamette.shinyapps.io/502Final/"
 ---
 
-#### Data Wrangling & Preparation
+### Data Wrangling & Preparation
 
 **Data Integration:**
 - Combined 3 datasets: Portland districts, 2025 Crime Reports, and City Streetlight locations
@@ -24,7 +24,7 @@ project-link: "https://maggie-g-willamette.shinyapps.io/502Final/"
 - Performed statistical tests and created graphics to determine best visualization approaches
 - Analyzed correlation between nighttime crime and streetlight presence
 
-#### Technical Implementation
+### Technical Implementation
 
 **Spatial Mapping:**
 - Created an R map overlay displaying all reported crime locations with city streetlight locations
@@ -37,6 +37,6 @@ project-link: "https://maggie-g-willamette.shinyapps.io/502Final/"
 - Shows temporal patterns (time of day crimes were committed)
 - Enables neighborhood-level exploration and comparison
 
-#### Tools & Technologies
+### Tools & Technologies
 
 R, Shiny, Spatial Analysis, Data Visualization, Statistical Testing

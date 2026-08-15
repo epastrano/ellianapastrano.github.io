@@ -12,26 +12,26 @@ description: Machine learning analysis predicting disinformation campaign intens
 project-link: "https://wu-msds-capstones.github.io/project-writeup-maggie-elliana/"
 ---
 
-#### Project Overview
+### Project Overview
 
-Currently building a capstone project pipeline that aggregates world news at the article-level and analyzes it to use as predictors of country-year misinformation campaigns.
+Built a capstone project pipeline that aggregates world news at the article-level and analyzes it to use as predictors of country-year misinformation campaigns.
 
-#### Technical Implementation
+### Technical Implementation
 
 **Data Engineering:**
 - Engineered a layered SQL view over the GDELT database in Google BigQuery
 - Transitioned 2.6TB of raw data to ~3,000 rows for aggregated analysis
 - Cleaned, filtered, joined, and transformed data using R, Python, and SQL
-- Created visuals from combined data
+- Created visuals to track and communicate didsinformation scores globally
 
 **Analysis & Modeling:**
 - Applied Random Forest modeling, PCA, and clustering for dimensionality reduction
 
-#### Deliverables
+### Deliverables
 
 - Technical research paper documenting methodology and findings
 - Conference poster presenting results to academic and professional audience
 
-#### Tools & Technologies
+### Tools & Technologies
 
 Python, R, SQL, GitHub, Machine Learning, GDELT, Google BigQuery
