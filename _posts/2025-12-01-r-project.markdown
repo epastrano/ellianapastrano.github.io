@@ -29,7 +29,7 @@ Using data from 2013-2024, I analyzed 195+ countries across Freedom House Index 
 - **Model accuracy = 91.9%** in predicting whether countries are Free or Not Free
 - **p-value < 0.001** — the relationship is highly statistically significant
 
-**Socioeconomic factors do NOT significantly predict Civil Liberties** after accounting for Political Rights. This challenges conventional development theory and suggests that economic growth alone cannot guarantee freedom.
+**Socioeconomic factors do not significantly predict Civil Liberties** after accounting for Political Rights. This challenges conventional development theory and suggests that economic growth alone cannot guarantee freedom.
 
 **Regional patterns emerge**: Europe is significantly more likely to be Free, while Asia shows higher rates of restricted Civil Liberties, regardless of economic development.
 
