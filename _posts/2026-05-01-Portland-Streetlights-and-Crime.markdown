@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 date: 2026-05-01
 img: portland_street_map.png
-alt: image-alt
+alt: Portland-Street-Light-Project
 project-date: May 2026
 client: Willamette University (MSDS)
 category: Geospatial Analysis & Interactive Data Visualization
