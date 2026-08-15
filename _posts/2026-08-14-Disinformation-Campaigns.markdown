@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-date: 2026-08-16
+date: 2026-08-14
 img: disinformation_score.png
 alt: Disinformation-Project
 project-date: August 2026
