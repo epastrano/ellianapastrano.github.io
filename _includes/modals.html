@@ -19,10 +19,6 @@
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
-
-            {{ post.content }}
-
-            <ul class="list-inline item-details">
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -40,6 +36,8 @@
               </li>
               {% endif %}
             </ul>
+            
+            {{ post.content }}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
